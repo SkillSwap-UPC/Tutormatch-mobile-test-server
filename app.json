@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "tutormatch-mobile",
+    "slug": "tutormatch-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./index.js",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tutormatchmobile",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "allowFontScaling": false,
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.tutormatchmobile"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1bc44ff7-b99d-45a8-8238-40053289c528"
+      }
+    }
+  }
+}
