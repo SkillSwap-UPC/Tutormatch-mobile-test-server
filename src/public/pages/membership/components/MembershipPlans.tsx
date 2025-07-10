@@ -215,6 +215,11 @@ export default function MembershipPlans() {
                 <Feather name="x" size={22} color="#fff" />
               </TouchableOpacity>
             </View>
+            <View style={{ backgroundColor: '#fef08a', borderRadius: 10, padding: 10, marginBottom: 12, borderWidth: 1, borderColor: '#facc15' }}>
+              <Text style={{ color: '#a91d3a', fontWeight: 'bold', textAlign: 'center', fontSize: 13 }}>
+                TutorMatch <Text style={{ color: '#dc2626', fontWeight: 'bold' }}>NO gestiona los pagos de manera interna.</Text> Realiza tu pago solo a través de los métodos y cuentas oficiales mostrados aquí. No uses intermediarios ni terceros para realizar tu pago.
+              </Text>
+            </View>
             {/* Content */}
             <ScrollView contentContainerStyle={styles.modalContent}>
               {/* Plan Summary */}
